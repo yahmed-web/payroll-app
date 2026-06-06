@@ -1,0 +1,548 @@
+[
+  {
+    "id": "PR001",
+    "name": "Amine S.",
+    "project": "telecom",
+    "kpiScore": 27.8,
+    "base": 555,
+    "commission": 0,
+    "bonus": 139,
+    "deductions": 0,
+    "final": 694,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 222,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0,
+      "buyingachieved": 0
+    },
+    "targets": {
+      "calls": 240,
+      "sales": 100,
+      "quality": 90,
+      "attendance": 23,
+      "buyingachieved": 3
+    },
+    "attendanceDays": 3
+  },
+  {
+    "id": "PR002",
+    "name": "Omar Khalid",
+    "project": "Beta Networks",
+    "kpiScore": 0,
+    "base": 0,
+    "commission": 0,
+    "bonus": 0,
+    "deductions": 0,
+    "final": 0,
+    "status": "approved",
+    "rawMetrics": {},
+    "targets": {
+      "sales": 60,
+      "conversionrate": 15,
+      "aht": 280
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "PR003",
+    "name": "Yasmine K.",
+    "project": "telecom",
+    "kpiScore": 15.8,
+    "base": 315,
+    "commission": 0,
+    "bonus": 79,
+    "deductions": 0,
+    "final": 394,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 126,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0,
+      "buyingachieved": 0
+    },
+    "targets": {
+      "calls": 240,
+      "sales": 100,
+      "quality": 90,
+      "attendance": 23,
+      "buyingachieved": 3
+    },
+    "attendanceDays": 3
+  },
+  {
+    "id": "PR004",
+    "name": "Ahmed Mansour",
+    "project": "Gamma ISP",
+    "kpiScore": 0,
+    "base": 0,
+    "commission": 0,
+    "bonus": 0,
+    "deductions": 0,
+    "final": 0,
+    "status": "approved",
+    "rawMetrics": {},
+    "targets": {
+      "retentionrate": 85,
+      "csat": 90,
+      "calls": 180
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "PR005",
+    "name": "Fatima Al-Zahra",
+    "project": "Beta Networks",
+    "kpiScore": 0,
+    "base": 0,
+    "commission": 0,
+    "bonus": 0,
+    "deductions": 0,
+    "final": 0,
+    "status": "pending",
+    "rawMetrics": {},
+    "targets": {
+      "sales": 60,
+      "conversionrate": 15,
+      "aht": 280
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "PR006",
+    "name": "Sami B.",
+    "project": "telecom",
+    "kpiScore": 5.6,
+    "base": 113,
+    "commission": 0,
+    "bonus": 28,
+    "deductions": 280,
+    "final": -139,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 45,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0,
+      "buyingachieved": 0
+    },
+    "targets": {
+      "calls": 240,
+      "sales": 100,
+      "quality": 90,
+      "attendance": 23,
+      "buyingachieved": 3
+    },
+    "attendanceDays": 3
+  },
+  {
+    "id": "PR007",
+    "name": "Nour Hassan",
+    "project": "Gamma ISP",
+    "kpiScore": 0,
+    "base": 0,
+    "commission": 0,
+    "bonus": 0,
+    "deductions": 450,
+    "final": -450,
+    "status": "rejected",
+    "rawMetrics": {},
+    "targets": {
+      "retentionrate": 85,
+      "csat": 90,
+      "calls": 180
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "PR008",
+    "name": "Reem Al-Saeed",
+    "project": "Delta Voice",
+    "kpiScore": 0,
+    "base": 0,
+    "commission": 0,
+    "bonus": 0,
+    "deductions": 680,
+    "final": -680,
+    "status": "pending",
+    "rawMetrics": {},
+    "targets": {
+      "resolutionrate": 80,
+      "csat": 85,
+      "aht": 300
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "PR009",
+    "name": "Farah M.",
+    "project": "telecom",
+    "kpiScore": 0,
+    "base": 0,
+    "commission": 0,
+    "bonus": 0,
+    "deductions": 0,
+    "final": 0,
+    "status": "Absent",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0,
+      "buyingachieved": 0
+    },
+    "targets": {
+      "calls": 240,
+      "sales": 100,
+      "quality": 90,
+      "attendance": 23,
+      "buyingachieved": 3
+    },
+    "attendanceDays": 3
+  },
+  {
+    "id": "PR010",
+    "name": "Mona Saleh",
+    "project": "Beta Networks",
+    "kpiScore": 0,
+    "base": 0,
+    "commission": 0,
+    "bonus": 0,
+    "deductions": 980,
+    "final": -980,
+    "status": "rejected",
+    "rawMetrics": {},
+    "targets": {
+      "sales": 60,
+      "conversionrate": 15,
+      "aht": 280
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "PR011",
+    "name": "Mourad T.",
+    "project": "telecom",
+    "kpiScore": 19.1,
+    "base": 383,
+    "commission": 0,
+    "bonus": 96,
+    "deductions": 0,
+    "final": 479,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 204,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0,
+      "buyingachieved": 0
+    },
+    "targets": {
+      "calls": 320,
+      "sales": 150,
+      "quality": 90,
+      "attendance": 23,
+      "buyingachieved": 4
+    },
+    "attendanceDays": 4
+  },
+  {
+    "id": "PR012",
+    "name": "Alexander Wright",
+    "project": "telecom",
+    "kpiScore": 51.2,
+    "base": 1960,
+    "commission": 0,
+    "bonus": 490,
+    "deductions": 0,
+    "final": 2450,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 249,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 13
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR013",
+    "name": "Beatrice Vance",
+    "project": "telecom",
+    "kpiScore": 58.8,
+    "base": 2327,
+    "commission": 0,
+    "bonus": 582,
+    "deductions": 0,
+    "final": 2909,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 254,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 16
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR014",
+    "name": "Charles Sterling",
+    "project": "telecom",
+    "kpiScore": 34.1,
+    "base": 1186,
+    "commission": 0,
+    "bonus": 296,
+    "deductions": 0,
+    "final": 1482,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 213,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 7
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR015",
+    "name": "Diana Prince",
+    "project": "telecom",
+    "kpiScore": 75.3,
+    "base": 3089,
+    "commission": 0,
+    "bonus": 772,
+    "deductions": 0,
+    "final": 3861,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 282,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 22
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR016",
+    "name": "Evan Brooks",
+    "project": "telecom",
+    "kpiScore": 42,
+    "base": 1561,
+    "commission": 0,
+    "bonus": 390,
+    "deductions": 0,
+    "final": 1951,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 223,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 10
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR017",
+    "name": "Fiona Gallagher",
+    "project": "telecom",
+    "kpiScore": 48,
+    "base": 1823,
+    "commission": 0,
+    "bonus": 456,
+    "deductions": 0,
+    "final": 2279,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 238,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 12
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR018",
+    "name": "George Thorne",
+    "project": "telecom",
+    "kpiScore": 48.1,
+    "base": 1826,
+    "commission": 0,
+    "bonus": 457,
+    "deductions": 0,
+    "final": 2283,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 240,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 12
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR019",
+    "name": "Hannah Abbott",
+    "project": "telecom",
+    "kpiScore": 56.5,
+    "base": 2210,
+    "commission": 0,
+    "bonus": 553,
+    "deductions": 0,
+    "final": 2763,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 256,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 15
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR020",
+    "name": "Ian Malcolm",
+    "project": "telecom",
+    "kpiScore": 35,
+    "base": 1204,
+    "commission": 0,
+    "bonus": 301,
+    "deductions": 0,
+    "final": 1505,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 225,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 7
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR021",
+    "name": "Julia Roberts",
+    "project": "telecom",
+    "kpiScore": 72.5,
+    "base": 2962,
+    "commission": 0,
+    "bonus": 740,
+    "deductions": 0,
+    "final": 3702,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 277,
+      "attendance": 1,
+      "saleachieved": 0,
+      "buyingachieved": 21
+    },
+    "targets": {
+      "calls": 400,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 5,
+      "sales": 150,
+      "quality": 90
+    },
+    "attendanceDays": 5
+  },
+  {
+    "id": "PR033",
+    "name": "Selima R.",
+    "project": "telecom",
+    "kpiScore": 20.6,
+    "base": 413,
+    "commission": 0,
+    "bonus": 103,
+    "deductions": 0,
+    "final": 516,
+    "status": "Present",
+    "rawMetrics": {
+      "calls": 165,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0,
+      "buyingachieved": 0
+    },
+    "targets": {
+      "calls": 240,
+      "sales": 100,
+      "quality": 90,
+      "attendance": 23,
+      "buyingachieved": 3
+    },
+    "attendanceDays": 3
+  }
+]

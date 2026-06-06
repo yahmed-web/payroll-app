@@ -1,0 +1,614 @@
+[
+  {
+    "id": "EMP001",
+    "name": "Sarah Al-Rashidi",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 1,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP002",
+    "name": "Omar Khalid",
+    "project": "Beta Networks",
+    "team": "Team B",
+    "role": "Agent",
+    "kpiScore": 96.1,
+    "salary": "$4,650",
+    "attendance": 97,
+    "warnings": 0,
+    "status": "active"
+  },
+  {
+    "id": "EMP003",
+    "name": "Layla Hassan",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 1,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP004",
+    "name": "Ahmed Mansour",
+    "project": "Gamma ISP",
+    "team": "Team C",
+    "role": "Supervisor",
+    "kpiScore": 93.2,
+    "salary": "$5,200",
+    "attendance": 100,
+    "warnings": 0,
+    "status": "active"
+  },
+  {
+    "id": "EMP005",
+    "name": "Fatima Al-Zahra",
+    "project": "Beta Networks",
+    "team": "Team B",
+    "role": "Agent",
+    "kpiScore": 91.8,
+    "salary": "$4,290",
+    "attendance": 93,
+    "warnings": 0,
+    "status": "active"
+  },
+  {
+    "id": "EMP006",
+    "name": "Khalid Ibrahim",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 2,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP007",
+    "name": "Nour Hassan",
+    "project": "Gamma ISP",
+    "team": "Team C",
+    "role": "Agent",
+    "kpiScore": 74.1,
+    "salary": "$2,980",
+    "attendance": 78,
+    "warnings": 2,
+    "status": "warning"
+  },
+  {
+    "id": "EMP008",
+    "name": "Reem Al-Saeed",
+    "project": "Delta Voice",
+    "team": "Team D",
+    "role": "Agent",
+    "kpiScore": 61.5,
+    "salary": "$2,210",
+    "attendance": 70,
+    "warnings": 3,
+    "status": "warning"
+  },
+  {
+    "id": "EMP009",
+    "name": "Yousef Al-Rashid",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 1,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP010",
+    "name": "Mona Saleh",
+    "project": "Beta Networks",
+    "team": "Team B",
+    "role": "Agent",
+    "kpiScore": 55.2,
+    "salary": "$1,980",
+    "attendance": 65,
+    "warnings": 4,
+    "status": "inactive"
+  },
+  {
+    "id": "EMP011",
+    "name": "Unknown Agent",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 1,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP012",
+    "name": "Unknown Agent",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 1,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP013",
+    "name": "Unknown Agent",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 1,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP014",
+    "name": "Unknown Agent",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 1,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP015",
+    "name": "Unknown Agent",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 1,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP016",
+    "name": "Unknown Agent",
+    "project": "Alpha Telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 0,
+    "salary": "$0",
+    "attendance": 0,
+    "warnings": 1,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 0,
+      "sales": 0,
+      "quality": 0,
+      "attendance": 0
+    },
+    "targets": {
+      "calls": 200,
+      "sales": 50,
+      "quality": 90,
+      "attendance": 100
+    },
+    "attendanceDays": 1
+  },
+  {
+    "id": "EMP017",
+    "name": "Alexander Wright",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 66,
+    "salary": "$2,943",
+    "attendance": 26,
+    "warnings": 8,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 504,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 23,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  },
+  {
+    "id": "EMP018",
+    "name": "Beatrice Vance",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 66.7,
+    "salary": "$3,018",
+    "attendance": 26,
+    "warnings": 8,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 488,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 24,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  },
+  {
+    "id": "EMP019",
+    "name": "Charles Sterling",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 46.5,
+    "salary": "$1,893",
+    "attendance": 26,
+    "warnings": 8,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 408,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 13,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  },
+  {
+    "id": "EMP020",
+    "name": "Diana Prince",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 85,
+    "salary": "$4,037",
+    "attendance": 26,
+    "warnings": 6,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 558,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 34,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  },
+  {
+    "id": "EMP021",
+    "name": "Evan Brooks",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 56.7,
+    "salary": "$2,429",
+    "attendance": 26,
+    "warnings": 8,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 466,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 18,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  },
+  {
+    "id": "EMP022",
+    "name": "Fiona Gallagher",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 53.1,
+    "salary": "$2,228",
+    "attendance": 26,
+    "warnings": 8,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 454,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 16,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  },
+  {
+    "id": "EMP023",
+    "name": "George Thorne",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 60.3,
+    "salary": "$2,633",
+    "attendance": 26,
+    "warnings": 8,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 480,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 20,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  },
+  {
+    "id": "EMP024",
+    "name": "Hannah Abbott",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 63.1,
+    "salary": "$2,760",
+    "attendance": 26,
+    "warnings": 8,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 508,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 21,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  },
+  {
+    "id": "EMP025",
+    "name": "Ian Malcolm",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 56.4,
+    "salary": "$2,366",
+    "attendance": 26,
+    "warnings": 8,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 492,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 17,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  },
+  {
+    "id": "EMP026",
+    "name": "Julia Roberts",
+    "project": "telecom",
+    "team": "Team A",
+    "role": "Agent",
+    "kpiScore": 86.7,
+    "salary": "$4,136",
+    "attendance": 26,
+    "warnings": 6,
+    "status": "warning",
+    "rawMetrics": {
+      "calls": 562,
+      "attendance": 6,
+      "saleachieved": 0,
+      "buyingachieved": 35,
+      "sales": 0,
+      "quality": 0
+    },
+    "targets": {
+      "calls": 640,
+      "attendance": 23,
+      "saleachieved": 2,
+      "buyingachieved": 8,
+      "sales": 200,
+      "quality": 90
+    },
+    "attendanceDays": 8
+  }
+]

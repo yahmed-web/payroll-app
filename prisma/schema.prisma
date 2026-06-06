@@ -1,0 +1,90 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  // NOTE: We are using "mysql" for your Hostinger MySQL database.
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+// ─── AUTH / USER MODEL ────────────────────────────────────────────────────────
+model User {
+  id                 String    @id @default(cuid())
+  email              String    @unique
+  passwordHash       String
+  name               String
+  role               String    @default("ADMIN") // ADMIN, HR, FINANCE, AGENT etc.
+  verified           Boolean   @default(false)
+  verificationToken  String?
+  resetToken         String?
+  resetTokenExpiry   String?   // Store expiry timestamp
+  trialStartedAt     DateTime? @default(now())
+  trialExpiresAt     DateTime? // Holds the date trial ends
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+}
+
+// ─── PROJECT MODEL ────────────────────────────────────────────────────────────
+model Project {
+  id                 String    @id // Using custom ID (e.g. "1", "2")
+  name               String
+  client             String    @default("")
+  department         String    @default("")
+  agents             Int       @default(0)
+  status             String    @default("draft") // active, paused, draft
+  currency           String    @default("USD")
+  payrollCycle       String    @default("Monthly")
+  created            String    // formatted string date e.g. "Jan 12, 2025"
+  kpis               String    // JSON serialized array of strings (e.g. ["Calls (30%)", "Sales (40%)"])
+  kpiDetails         String    // JSON serialized details array
+  baseSalary         Float     @default(3000)
+  baseBonus          Float     @default(500)
+  salaryFormula      String    @default("baseSalary * (kpiScore / 100)")
+  bonusFormula       String    @default("baseBonus * (kpiScore / 100)")
+  commissionFormula  String    @default("0")
+  commissionSystem   String    @default("None")
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+}
+
+// ─── EMPLOYEE MODEL ───────────────────────────────────────────────────────────
+model Employee {
+  id                 String    @id // Custom employee ID e.g. "EMP001"
+  name               String
+  project            String    // Name of the project (relates to Project.name)
+  team               String    @default("")
+  role               String    @default("Agent")
+  kpiScore           Float     @default(0)
+  salary             String    @default("$0")
+  attendance         Float     @default(0)
+  warnings           Int       @default(0)
+  status             String    @default("active") // active, warning, inactive
+  rawMetrics         String?   // JSON serialized raw metric counters
+  targets            String?   // JSON serialized targets
+  attendanceDays     Int?      @default(0)
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+}
+
+// ─── PAYROLL RECORD MODEL ─────────────────────────────────────────────────────
+model PayrollRecord {
+  id                 String    @id // Custom record ID e.g. "PR001"
+  name               String
+  project            String    // Name of the project (relates to Project.name)
+  kpiScore           Float     @default(0)
+  base               Float     @default(0)
+  commission         Float     @default(0)
+  bonus              Float     @default(0)
+  deductions         Float     @default(0)
+  final              Float     @default(0)
+  status             String    @default("pending") // approved, pending, rejected, Present, Absent etc.
+  rawMetrics         String?   // JSON serialized raw metrics
+  targets            String?   // JSON serialized targets
+  attendanceDays     Int?      @default(0)
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+}

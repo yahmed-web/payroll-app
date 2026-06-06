@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "email": "admin@webnova.com",
+    "passwordHash": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "name": "Admin User",
+    "role": "ADMIN",
+    "verified": true
+  },
+  {
+    "id": "2",
+    "email": "hr@webnova.com",
+    "passwordHash": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "name": "HR Manager",
+    "role": "HR",
+    "verified": true
+  },
+  {
+    "id": "3",
+    "email": "2lac2.yahia.meddeb@gmail.com",
+    "passwordHash": "$2a$10$2KQ3MuK9oACEK/.CZ2jOpegE7y1RQRxdpas/htk32zbG9sR.VocVK",
+    "name": "Yahia Meddeb",
+    "role": "ADMIN",
+    "verified": true
+  },
+  {
+    "id": "4",
+    "email": "yahia.seo.webmaster@gmail.com",
+    "passwordHash": "$2a$10$/PcJH.MQOBw9eWEIX8nlyu659GoUYGjolQRqOxGZoFShmX3SdXSNe",
+    "name": "yahiame",
+    "role": "ADMIN",
+    "verified": true,
+    "resetToken": "ce97d7e4a39d69a4c9bb8af0c27969a0116e0e090c2585b1aff3460d2d32f219"
+  }
+]

@@ -1,0 +1,402 @@
+[
+  {
+    "id": "1",
+    "name": "Alpha Telecom",
+    "client": "Alpha Corp",
+    "department": "Inbound Sales",
+    "agents": 142,
+    "status": "active",
+    "currency": "USD",
+    "payrollCycle": "Monthly",
+    "created": "Jan 12, 2025",
+    "kpis": [
+      "Calls (30%)",
+      "Sales (40%)",
+      "Quality (20%)",
+      "Attendance (10%)"
+    ],
+    "kpiDetails": [
+      {
+        "id": "1",
+        "name": "Calls",
+        "weight": 30,
+        "target": 200,
+        "warningThreshold": 70,
+        "score": 87,
+        "targetType": "daily",
+        "formula": "(calls / target) * 100"
+      },
+      {
+        "id": "2",
+        "name": "Sales",
+        "weight": 40,
+        "target": 50,
+        "warningThreshold": 65,
+        "score": 92,
+        "targetType": "daily",
+        "formula": "(sales / target) * 100"
+      },
+      {
+        "id": "3",
+        "name": "Quality",
+        "weight": 20,
+        "target": 90,
+        "warningThreshold": 75,
+        "score": 79,
+        "targetType": "daily",
+        "formula": "(quality / target) * 100"
+      },
+      {
+        "id": "4",
+        "name": "Attendance",
+        "weight": 10,
+        "target": 100,
+        "warningThreshold": 80,
+        "score": 95,
+        "targetType": "daily",
+        "formula": "(attendance / target) * 100"
+      }
+    ],
+    "baseSalary": 3300,
+    "baseBonus": 500,
+    "salaryFormula": "baseSalary * (kpiScore / 100)",
+    "bonusFormula": "baseBonus * (kpiScore / 100)",
+    "commissionFormula": "0",
+    "commissionSystem": "Per-sale tiered"
+  },
+  {
+    "id": "2",
+    "name": "Beta Networks",
+    "client": "Beta ISP Ltd",
+    "department": "Outbound",
+    "agents": 98,
+    "status": "active",
+    "currency": "USD",
+    "payrollCycle": "Bi-weekly",
+    "created": "Mar 3, 2025",
+    "kpis": [
+      "Sales (50%)",
+      "Conversion Rate (30%)",
+      "AHT (20%)"
+    ],
+    "kpiDetails": [
+      {
+        "id": "1",
+        "name": "Sales",
+        "weight": 50,
+        "target": 60,
+        "warningThreshold": 70,
+        "score": 85,
+        "targetType": "daily",
+        "formula": "(sales / target) * 100"
+      },
+      {
+        "id": "2",
+        "name": "Conversion Rate",
+        "weight": 30,
+        "target": 15,
+        "warningThreshold": 65,
+        "score": 78,
+        "targetType": "daily",
+        "formula": "(conversionrate / target) * 100"
+      },
+      {
+        "id": "3",
+        "name": "AHT",
+        "weight": 20,
+        "target": 280,
+        "warningThreshold": 80,
+        "score": 83,
+        "targetType": "daily",
+        "formula": "(aht / target) * 100"
+      }
+    ],
+    "baseSalary": 3000,
+    "baseBonus": 500,
+    "salaryFormula": "baseSalary * (kpiScore / 100)",
+    "bonusFormula": "baseBonus * (kpiScore / 100)",
+    "commissionFormula": "baseSalary * 0.15 * (Sales / 60)",
+    "commissionSystem": "Conversion milestone"
+  },
+  {
+    "id": "3",
+    "name": "Gamma ISP",
+    "client": "Gamma Telecom",
+    "department": "Retention",
+    "agents": 76,
+    "status": "active",
+    "currency": "EUR",
+    "payrollCycle": "Monthly",
+    "created": "Feb 18, 2025",
+    "kpis": [
+      "Retention Rate (45%)",
+      "CSAT (35%)",
+      "Calls (20%)"
+    ],
+    "kpiDetails": [
+      {
+        "id": "1",
+        "name": "Retention Rate",
+        "weight": 45,
+        "target": 85,
+        "warningThreshold": 75,
+        "score": 90,
+        "targetType": "daily",
+        "formula": "(retentionrate / target) * 100"
+      },
+      {
+        "id": "2",
+        "name": "CSAT",
+        "weight": 35,
+        "target": 90,
+        "warningThreshold": 80,
+        "score": 88,
+        "targetType": "daily",
+        "formula": "(csat / target) * 100"
+      },
+      {
+        "id": "3",
+        "name": "Calls",
+        "weight": 20,
+        "target": 180,
+        "warningThreshold": 70,
+        "score": 86,
+        "targetType": "daily",
+        "formula": "(calls / target) * 100"
+      }
+    ],
+    "baseSalary": 3500,
+    "baseBonus": 500,
+    "salaryFormula": "baseSalary * (kpiScore / 100)",
+    "bonusFormula": "baseBonus * (kpiScore / 100)",
+    "commissionFormula": "baseSalary * 0.12 * (RetentionRate / 85)",
+    "commissionSystem": "Retention tier"
+  },
+  {
+    "id": "4",
+    "name": "Delta Voice",
+    "client": "Delta Corp",
+    "department": "Technical Support",
+    "agents": 54,
+    "status": "paused",
+    "currency": "GBP",
+    "payrollCycle": "Monthly",
+    "created": "Apr 5, 2025",
+    "kpis": [
+      "Resolution Rate (50%)",
+      "CSAT (30%)",
+      "AHT (20%)"
+    ],
+    "kpiDetails": [
+      {
+        "id": "1",
+        "name": "Resolution Rate",
+        "weight": 50,
+        "target": 80,
+        "warningThreshold": 70,
+        "score": 75,
+        "targetType": "daily",
+        "formula": "(resolutionrate / target) * 100"
+      },
+      {
+        "id": "2",
+        "name": "CSAT",
+        "weight": 30,
+        "target": 85,
+        "warningThreshold": 75,
+        "score": 72,
+        "targetType": "daily",
+        "formula": "(csat / target) * 100"
+      },
+      {
+        "id": "3",
+        "name": "AHT",
+        "weight": 20,
+        "target": 300,
+        "warningThreshold": 80,
+        "score": 77,
+        "targetType": "daily",
+        "formula": "(aht / target) * 100"
+      }
+    ],
+    "baseSalary": 2500,
+    "baseBonus": 500,
+    "salaryFormula": "baseSalary * (kpiScore / 100)",
+    "bonusFormula": "baseBonus * (kpiScore / 100)",
+    "commissionFormula": "0",
+    "commissionSystem": "None"
+  },
+  {
+    "id": "5",
+    "name": "Epsilon Mobile",
+    "client": "Epsilon Wireless",
+    "department": "VIP Sales",
+    "agents": 31,
+    "status": "draft",
+    "currency": "USD",
+    "payrollCycle": "Monthly",
+    "created": "May 1, 2025",
+    "kpis": [
+      "Sales (40%)",
+      "Revenue (35%)",
+      "Upsell (25%)"
+    ],
+    "kpiDetails": [
+      {
+        "id": "1",
+        "name": "Sales",
+        "weight": 40,
+        "target": 40,
+        "warningThreshold": 70,
+        "score": 82,
+        "targetType": "daily",
+        "formula": "(sales / target) * 100"
+      },
+      {
+        "id": "2",
+        "name": "Revenue",
+        "weight": 35,
+        "target": 10000,
+        "warningThreshold": 65,
+        "score": 88,
+        "targetType": "daily",
+        "formula": "(revenue / target) * 100"
+      },
+      {
+        "id": "3",
+        "name": "Upsell",
+        "weight": 25,
+        "target": 3000,
+        "warningThreshold": 60,
+        "score": 85,
+        "targetType": "daily",
+        "formula": "(upsell / target) * 100"
+      }
+    ],
+    "baseSalary": 3000,
+    "baseBonus": 500,
+    "salaryFormula": "baseSalary * (kpiScore / 100)",
+    "bonusFormula": "baseBonus * (kpiScore / 100)",
+    "commissionFormula": "baseSalary * 0.1 * (Sales / 40)",
+    "commissionSystem": "Revenue share"
+  },
+  {
+    "id": "1779363768957",
+    "name": "teleperformance ",
+    "client": "facebook",
+    "department": "HR",
+    "agents": 0,
+    "status": "draft",
+    "currency": "USD",
+    "payrollCycle": "Monthly",
+    "created": "May 21, 2026",
+    "kpis": [
+      "AHT  (30%)",
+      "quality (30%)",
+      "attendance (20%)",
+      "UR (20%)"
+    ],
+    "kpiDetails": [
+      {
+        "id": "1779363781060frv",
+        "name": "AHT ",
+        "weight": 30,
+        "target": 23,
+        "warningThreshold": 75,
+        "score": 80,
+        "targetType": "daily",
+        "formula": "(aht / target) * 100"
+      },
+      {
+        "id": "1779363805286uyv",
+        "name": "quality",
+        "weight": 30,
+        "target": 100,
+        "warningThreshold": 75,
+        "score": 80,
+        "targetType": "daily",
+        "formula": "(quality / target) * 100"
+      },
+      {
+        "id": "1779363858070yso",
+        "name": "attendance",
+        "weight": 20,
+        "target": 23,
+        "warningThreshold": 75,
+        "score": 80,
+        "targetType": "daily",
+        "formula": "(attendance / target) * 100"
+      },
+      {
+        "id": "1779363875147yac",
+        "name": "UR",
+        "weight": 20,
+        "target": 85,
+        "warningThreshold": 75,
+        "score": 80,
+        "targetType": "daily",
+        "formula": "(ur / target) * 100"
+      }
+    ],
+    "baseSalary": 3000,
+    "baseBonus": 500,
+    "salaryFormula": "baseSalary * (kpiScore / 100)",
+    "bonusFormula": "baseBonus * (kpiScore / 100)",
+    "commissionFormula": "0",
+    "commissionSystem": "None"
+  },
+  {
+    "id": "1779619282872",
+    "name": "telecom",
+    "client": "stock clearance",
+    "department": "HR",
+    "agents": 0,
+    "status": "draft",
+    "currency": "EUR",
+    "payrollCycle": "Monthly",
+    "created": "May 24, 2026",
+    "kpis": [
+      "calls  (30%)",
+      "attendance (30%)",
+      "buying achieved (40%)"
+    ],
+    "kpiDetails": [
+      {
+        "id": "1779619293845tkp",
+        "name": "calls ",
+        "weight": 30,
+        "target": 80,
+        "warningThreshold": 75,
+        "score": 80,
+        "targetType": "daily",
+        "formula": "(calls / target) * 30"
+      },
+      {
+        "id": "17796193126865lg",
+        "name": "attendance",
+        "weight": 30,
+        "target": 23,
+        "warningThreshold": 75,
+        "score": 80,
+        "targetType": "daily",
+        "formula": "(attendance / target) * 30"
+      },
+      {
+        "id": "1779619362959dix",
+        "name": "buying achieved",
+        "weight": 40,
+        "target": 1,
+        "warningThreshold": 0,
+        "score": 80,
+        "targetType": "daily",
+        "formula": "(saleachieved / target) * 30"
+      }
+    ],
+    "baseSalary": 2000,
+    "baseBonus": 500,
+    "salaryFormula": "baseSalary * (calls / target) * 30% +baseSalary* (attendance / target) * 30%+baseSalary* (saleachieved / target) * 30%",
+    "bonusFormula": "500 * (calls / target) * 30%+ 500*(attendance / target) * 30%+500* (saleachieved / target) * 30%",
+    "commissionFormula": "sales achieved*1%",
+    "commissionSystem": "None"
+  }
+]
